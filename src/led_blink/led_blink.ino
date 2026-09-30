@@ -1,10 +1,14 @@
+
+
+const uint8_t LED_PIN = 13;
+
 void setup() {
-  pinMode(13, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(13, HIGH);
+  digitalWrite(LED_PIN, HIGH);
   delay(1000);
-  digitalWrite(13, LOW);
+  digitalWrite(LED_PIN, LOW);
   delay(1000);
 }
